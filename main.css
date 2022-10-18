@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: IRAban;
+    src: url(./fonts/IRAban.ttf);
+}
+@font-face {
+    font-family: HARLOWSI;
+    src: url(./fonts/HARLOWSI.TTF);
+}
+
+*{
+direction: rtl;
+font-family:IRAban ;
+box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    overflow-x: hidden;
+     
+   
+}
+
+a{ 
+    text-decoration: none;
+}
