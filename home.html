@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./css/home.css'>
+    <link rel='stylesheet' href='./css/main.css'>
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' 
+    href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='./css/animate.css'>
+    <link rel='stylesheet' href='./css/flexboxgrid.css'>
+    <!--<link rel="stylesheet" href="./owlcarousel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="./owlcarousel/assets/owl.theme.default.min.css">-->
+    </head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="fi fi-rr-home"></i></a>
+                <a href=""><i class="fi fi-rr-user"></i></a>
+                <a href=""><i class="fi fi-rr-search"></i></a>
+                <a href=""><i class="fi fi-rr-shopping-cart"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fi fi-rr-user"></i>
+                    <a href="#">ثبت نام / ورود </a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="./image/Shot 0094.png" alt="">
+                    
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./image/Shot 0095.png" alt="">
+                   
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./image/Shot 0096.png" alt="">
+                   
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1' , 1)" class="fi fi-ss-circle-small"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fi fi-ss-circle-small"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fi fi-ss-circle-small"></i>
+            </div>
+
+        </section>
+    </header>
+    <main>
+        <section class="product-sec-new">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h1.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون مخصوص بازی مدل k10 Pro
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۸۳۶  هزار تومان </span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h2.jpg" alt="">  
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدست مخصوص بازی  مدل G9000
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۴۴۰ هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h3.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون بی سیم لنوو مدل HD200
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۶۹۰ هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h4.jpg" alt="">
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدست بی سیم جی بی ال مدل  510BT 
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۱,۴۸۹,۵۰۰ تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+        </section>
+        <section class="super-offer-section">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="super-offer-box">
+                        <span class="super-offer-box-title">
+                            پیشنهاد شگفت انگیز
+                        </span>
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="image-container">
+                                        <img  src="./image/h5.jpg" style="width: 100%;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="spesification">
+                                        <div class="price-row">
+                                            <div class="price"> ۱ میلیون تومان</div>
+                                            <div class="off">60% تخفیف </div>
+                                        </div>
+                                        <div class="title"> هدست ایسوس مدل stricx 7.1</div>
+                                        <div class="counter-down">
+                                            <span id="seconds">40</span>:
+                                            <span id="minutes">26</span>:
+                                            <span id="hours">19</span>
+                                        </div>
+                                        <div class="remaining-time"> زمان باقی مانده تا پایان سفارش </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="banner">
+                        <img src="./image/offer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       <!--<section class="dragble-list">
+            <div class="title">
+                <span>هندزفری ها</span>
+            </div>
+            <div id="owl-product" class="owl-carousel ">
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h1.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون مخصوص بازی اونیکوما مدل k10 Pro
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۸۳۶  هزار تومان </span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h1.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون مخصوص بازی اونیکوما مدل k10 Pro
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۸۳۶  هزار تومان </span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h1.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون مخصوص بازی اونیکوما مدل k10 Pro
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۸۳۶  هزار تومان </span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h1.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون مخصوص بازی اونیکوما مدل k10 Pro
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۸۳۶  هزار تومان </span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h1.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون مخصوص بازی اونیکوما مدل k10 Pro
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۸۳۶  هزار تومان </span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h1.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون مخصوص بازی اونیکوما مدل k10 Pro
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۸۳۶  هزار تومان </span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./image/h1.jpg" alt="">
+                            <span class="hot-offer"> پیشنهاد ویژه </span>
+                            <div class="stars">
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                                <i class="fi fi-sr-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            هدفون مخصوص بازی اونیکوما مدل k10 Pro
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> ۸۳۶  هزار تومان </span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> علاقه </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=""> خرید </a>
+                                    <a class="b-icon" href=""><i class="fi fi-sr-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">
+                        درباره ما 
+                    </div>
+                    <div class="des">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam minima ducimus mollitia aliquid ut iure odio repellat similique, libero consequatur, accusantium temporibus aspernatur tempora. Corporis sint esse obcaecati aut totam asperiores qui vitae, exercitationem excepturi doloremque corrupti dignissimos distinctio expedita quisquam eius, quia vel animi, fugiat nobis? Consequatur, excepturi hic!
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="left">
+                    <div class="title">
+                        ما را در شبکه های اجتماعی دنبال کنید
+                    </div>
+                    <div class="socials">
+                        <a href=""><i class="fi fi-brands-twitter"></i></a>
+                        <a href=""><i class="fi fi-brands-instagram"></i></a>
+                        <a href=""><i class="fi fi-brands-linkedin"></i></a>
+                        <a href=""><i class="fi fi-brands-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            کلیه حقوق محفوظ می باشد 2022 © 
+        </div>
+ <script src="./js/main.js"></script>
+<!-- <script src="./owlcarousel/jquery.min.js"></script>
+<script src="./owlcarousel/owl.carousel.min.js"></script>-->
+    </footer>
+
+    
+</body>
+</html>
